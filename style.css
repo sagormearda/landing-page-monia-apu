@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.container {
+    width: 100%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+.header {
+    height: 500px;
+    width: 100%;
+    /* background-color: rgb(255, 136, 0); */
+}
+
+.top-header {
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    margin: auto;
+}
+
+.menu-bar {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+    /* background-color: blue; */
+    float: left;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-item {
+    width: 85%;
+    /* background-color: white; */
+    float: right;
+    height: 50px;
+    padding-top: 30px;
+}
+
+.menu-item-list {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+.menu-item-list a {
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-item-list a:hover {
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+}
+
+
+/* start bottom header */
+
+.btm-h {
+    height: 400px;
+    width: 100%;
+}
+
+.btm-h-box {
+    background-image: url(./pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+    background-position-x: center;
+    background-position-y: center;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.btm-h-text {
+    color: antiquewhite;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    /* background-color: lightgray; */
+    /* padding-top: 10px; */
+    box-shadow: 0px 0px 9px 4px white;
+    border-radius: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+}
+
+p {
+    text-transform: capitalize;
+    word-spacing: 5px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+a {
+    background-color: white;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: aqua;
+    color: gray;
+}
+
+.footer {
+    background-color: gray;
+    padding-bottom: 50px;
+}
+
+.h-2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.icon-footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.copyright-footer {
+    text-align: center;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    margin-top: 100px;
+}
+
+.about {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+}
+
+.about-information {
+    height: 200px;
+    width: 600px;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.p-1 {
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.p-2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.about-disply {
+    width: 100%;
+    /* height: 400px; */
+    /* background-color: red; */
+    /* padding-top: 100px; */
+    margin: 150px;
+}
+
+.about-a-design {
+    float: left;
+    width: 25%;
+    text-align: center;
+    /* background-color: brown; */
+    margin-right: 20px;
+}
+
+.about-a-design:hover {
+    box-shadow: 0px 0px 5px 4px black;
+}
+
+.about-a-design i {
+    color: goldenrod;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.about-a {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+    /* background-color: red; */
+}
+
+.about-a:hover {
+    box-shadow: 0px 0px 5px 4px black;
+}
+
+.about-a i {
+    text-align: center;
+    font-size: 32px;
+    color: red;
+    margin-bottom: 20px;
+    pa
+}
+
+.about-feature {
+    width: 25%;
+    float: left;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.about-feature:hover {
+    box-shadow: 0px 0px 5px 4px black;
+}
+
+.about-feature i {
+    text-align: center;
+    font-size: 32px;
+    color: lightcoral;
+    margin-bottom: 20px;
+    pa
+}
